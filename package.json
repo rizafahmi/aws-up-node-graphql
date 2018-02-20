@@ -1,0 +1,10 @@
+{
+  "name": "up-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Riza Fahmi <rizafahmi@gmail.com> (https://rizafahmi.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2"
+  }
+}
