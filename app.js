@@ -1,9 +1,9 @@
-const app = require('express')()
+const app = require("express")();
 
-const { PORT = 3000 } = process.env
+const { PORT = 3000 } = process.env;
 
-app.get('/', (req, res) => {
-  res.json({status: 'OK'})
-})
+app.get("/", (req, res) => {
+  res.json({ status: "OK", source: "development" });
+});
 
-app.listen(PORT)
+app.listen(PORT);
