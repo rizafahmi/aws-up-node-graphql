@@ -3,5 +3,8 @@
   "profile": "claudia",
   "regions": [
     "ap-southeast-1"
-  ]
+  ],
+  "cors": {
+    "enable": true
+  }
 }
